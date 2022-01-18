@@ -1,0 +1,50 @@
+@import 'variables';
+.header {
+    height: 100px;
+    width: 100%;
+    .container {
+        margin-inline: 5rem;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            height: 40px;
+            width: 100px;
+            background: url(../img/logo.png);
+            background-size: cover;
+        }
+        .fa-times {
+            font-size: 2rem;
+            color: $mainColor;
+            display: none;
+        }
+        .fa-bars {
+            font-size: 2rem;
+            color: $mainColor;
+            display: block;
+        }
+    }
+    nav {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        ul {
+            display: flex;
+            height: 100%;
+            li {
+                height: 100%;
+                padding-inline: 2rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    li {
+        padding-inline: 1vw !important;
+        font-size: 4vw !important;
+    }
+}

@@ -1,0 +1,18 @@
+@import 'variables';
+footer {
+    height: 160px;
+    width: 100%;
+    background: $footerColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons {
+        letter-spacing: 0.5rem;
+    }
+}

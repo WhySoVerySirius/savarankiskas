@@ -1,0 +1,115 @@
+@import 'variables';
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: $grayBg;
+    .bannerContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 1fr;
+        margin-inline: auto;
+        padding: 100px 0;
+        .img {
+            height: 400px;
+            width: 400px;
+            position: relative;
+            background-color: transparent;
+            background-blend-mode: multiply;
+            transition-duration: 500ms;
+            &::before {
+                content: 'minimal mobile app';
+                text-transform: capitalize;
+                position: absolute;
+                top: 35%;
+                left: 26%;
+                font-size: 1.5rem;
+                color: $grayBg;
+                z-index: -1;
+            }
+            &::after {
+                content: 'design';
+                text-transform: uppercase;
+                font-size: 0.875rem;
+                position: absolute;
+                top: 50%;
+                left: 42%;
+                font-weight: bold;
+                color: $grayBg;
+                z-index: -1;
+            }
+            &:hover {
+                background-color: rgba($color: $mainColor, $alpha: 0.9);
+                background-blend-mode: multiply;
+                transform: scale(1.1);
+                box-shadow: 0 0 50px 50px $footerColor;
+                z-index: 3;
+                &::before,
+                &::after {
+                    z-index: 1;
+                }
+            }
+        }
+        .pic1 {
+            background: url(../img/portfolio-7-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic2 {
+            background: url(../img/portfolio-4-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic3 {
+            background: url(../img/portfolio-5-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic4 {
+            background: url(../img/portfolio-9-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic5 {
+            background: url(../img/portfolio-3-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic6 {
+            background: url(../img/portfolio-8-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic7 {
+            background: url(../img/portfolio-2-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic8 {
+            background: url(../img/portfolio-6-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pic9 {
+            background: url(../img/portfolio-12-sm.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .bannerContainer {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .bannerContainer {
+        grid-template-columns: 1fr !important;
+        width: 100%;
+    }
+    .img {
+        width: 100% !important;
+    }
+}
