@@ -9,5 +9,6 @@ $(document).ready(function() {
             $('.fa-times').css('display', 'block');
             $('.fa-bars').css('display', 'none')
         }
-    })
+    });
+
 })

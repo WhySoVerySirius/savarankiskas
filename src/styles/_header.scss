@@ -2,6 +2,10 @@
 .header {
     height: 100px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background: white;
     .container {
         margin-inline: 5rem;
         padding: 2rem 0;
@@ -14,15 +18,23 @@
             background: url(../img/logo.png);
             background-size: cover;
         }
+        #switch {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            padding: auto 0;
+        }
         .fa-times {
             font-size: 2rem;
             color: $mainColor;
             display: none;
+            z-index: 99;
         }
         .fa-bars {
             font-size: 2rem;
             color: $mainColor;
             display: block;
+            z-index: 99;
         }
     }
     nav {
@@ -43,8 +55,20 @@
 }
 
 @media (max-width: 850px) {
-    li {
-        padding-inline: 1vw !important;
-        font-size: 4vw !important;
+    body {
+        overflow-x: hidden;
+    }
+    ul {
+        flex-direction: column !important;
+        position: fixed;
+        inset: 100px 0 auto 0 !important;
+        background-color: hsla(60, 100%, 100%, 0.87) !important;
+        z-index: 10;
+        height: 50vh !important;
+        li {
+            padding-inline: 1vw !important;
+            font-size: 4vw !important;
+            text-align: center;
+        }
     }
 }
