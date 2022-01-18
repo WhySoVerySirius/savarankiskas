@@ -55,6 +55,11 @@ function script() {
         .pipe(dest('dist/script'))
 }
 
+function fonts() {
+    return src('src/fonts/**')
+        .pipe(dest('dist/fonts'))
+}
+
 
 function serve() {
     sync.init({
@@ -68,4 +73,4 @@ function serve() {
 
 }
 
-exports.start = series(script, resetcss, font, html, scss, img, serve);
+exports.start = series(script, fonts, resetcss, font, html, scss, img, serve);

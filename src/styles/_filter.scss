@@ -1,0 +1,28 @@
+@import 'variables';
+.filter {
+    margin-top: 100px;
+    height: 100px;
+    background: $grayBg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .filterContainer {
+        display: flex;
+        .buttons {
+            display: none;
+            button {
+                width: 5rem;
+                margin-inline: 0.5rem;
+            }
+        }
+        .filterExpand {
+            button {
+                width: 2rem;
+                height: 2rem;
+                padding: auto;
+                border: none;
+                background: $grayBg;
+            }
+        }
+    }
+}
