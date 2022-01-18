@@ -6,16 +6,6 @@
   font-family: "main";
   src: url(../fonts/work/WorkSans-VariableFont_wght.ttf);
 }
-.visible-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-
-.visible-not {
-  display: none !important;
-}
-
 @font-face {
   font-family: "accent";
   src: url(../fonts/play/PlayfairDisplay-VariableFont_wght.ttf);
@@ -24,16 +14,6 @@
   font-family: "main";
   src: url(../fonts/work/WorkSans-VariableFont_wght.ttf);
 }
-.visible-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-
-.visible-not {
-  display: none !important;
-}
-
 .header {
   height: 100px;
   width: 100%;
@@ -131,16 +111,6 @@
   font-family: "main";
   src: url(../fonts/work/WorkSans-VariableFont_wght.ttf);
 }
-.visible-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-
-.visible-not {
-  display: none !important;
-}
-
 .filter {
   margin-top: 100px;
   height: 100px;
@@ -183,16 +153,6 @@
   font-family: "main";
   src: url(../fonts/work/WorkSans-VariableFont_wght.ttf);
 }
-.visible-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-
-.visible-not {
-  display: none !important;
-}
-
 .banner {
   width: 100%;
   display: -webkit-box;
@@ -257,47 +217,47 @@
   z-index: 1;
 }
 .banner .bannerContainer #pic1 {
-  background: url(../img/portfolio-7-sm.jpg);
+  background-image: url(../img/portfolio-7-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic2 {
-  background: url(../img/portfolio-4-sm.jpg);
+  background-image: url(../img/portfolio-4-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic3 {
-  background: url(../img/portfolio-5-sm.jpg);
+  background-image: url(../img/portfolio-5-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic4 {
-  background: url(../img/portfolio-9-sm.jpg);
+  background-image: url(../img/portfolio-9-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic5 {
-  background: url(../img/portfolio-3-sm.jpg);
+  background-image: url(../img/portfolio-3-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic6 {
-  background: url(../img/portfolio-8-sm.jpg);
+  background-image: url(../img/portfolio-8-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic7 {
-  background: url(../img/portfolio-2-sm.jpg);
+  background-image: url(../img/portfolio-2-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic8 {
-  background: url(../img/portfolio-6-sm.jpg);
+  background-image: url(../img/portfolio-6-sm.jpg);
   background-size: cover;
   background-position: center;
 }
 .banner .bannerContainer #pic9 {
-  background: url(../img/portfolio-12-sm.jpg);
+  background-image: url(../img/portfolio-12-sm.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -334,16 +294,6 @@
   font-family: "main";
   src: url(../fonts/work/WorkSans-VariableFont_wght.ttf);
 }
-.visible-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-
-.visible-not {
-  display: none !important;
-}
-
 .smth {
   width: 100%;
   height: 100px;
@@ -374,16 +324,6 @@
   font-family: "main";
   src: url(../fonts/work/WorkSans-VariableFont_wght.ttf);
 }
-.visible-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-
-.visible-not {
-  display: none !important;
-}
-
 footer {
   height: 160px;
   width: 100%;
@@ -416,4 +356,5 @@ footer .footerContainer {
 }
 footer .icons {
   letter-spacing: 0.5rem;
+  color: #999999;
 }

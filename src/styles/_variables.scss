@@ -1,6 +1,8 @@
 $mainColor: #0e0e0e;
 $grayBg: #f6f6f6;
 $footerColor: #ebebeb;
+$iconColor: #999999;
+$footerFontColor: #5f5f5f;
 @font-face {
     font-family: 'accent';
     src: url(../fonts/play/PlayfairDisplay-VariableFont_wght.ttf);
@@ -10,12 +12,4 @@ $footerColor: #ebebeb;
 @font-face {
     font-family: 'main';
     src: url(../fonts/work/WorkSans-VariableFont_wght.ttf);
-}
-
-.visible-flex {
-    display: flex !important;
-}
-
-.visible-not {
-    display: none !important;
 }

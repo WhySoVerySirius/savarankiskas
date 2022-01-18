@@ -15,5 +15,9 @@ footer {
     }
     .icons {
         letter-spacing: 0.5rem;
+        color: $iconColor;
+    }
+    .copy {
+        color: $footerFontColor;
     }
 }
