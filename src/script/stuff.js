@@ -10,9 +10,9 @@ $(document).ready(function() {
             $('.fa-bars').css('display', 'none')
         }
     });
-    $(document).click(function(e) {
+    $(document).click(function(navhide) {
         let container = $(".header");
-        if (!container.is(e.target) && container.has(e.target).length === 0) {
+        if (!container.is(navhide.target) && container.has(navhide.target).length === 0) {
             $('nav').hide();
             $('.fa-times').css('display', 'none');
             $('.fa-bars').css('display', 'block')
@@ -22,13 +22,21 @@ $(document).ready(function() {
         $('.buttons').show();
         $('.filterExpand').hide()
     });
-    $(document).click(function(f) {
+    $(document).click(function(filterhide) {
         let container2 = $('.filter');
-        if (!container2.is(f.target) && container2.has(f.target).length === 0) {
+        if (!container2.is(filterhide.target) && container2.has(filterhide.target).length === 0) {
             $('.buttons').hide();
             $('.filterExpand').show();
+            $('.bannerContainer').children().show();
         }
-
+    })
+    $('#white').on('click', function() {
+        $('.img.not_white').hide();
+        $('.img.white').show()
+    })
+    $('#notWhite').on('click', function() {
+        $('.img.not_white').show();
+        $('.img.white').hide()
     })
 
 })

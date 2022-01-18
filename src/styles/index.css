@@ -256,47 +256,47 @@
 .banner .bannerContainer .img:hover::before, .banner .bannerContainer .img:hover::after {
   z-index: 1;
 }
-.banner .bannerContainer .pic1 {
+.banner .bannerContainer #pic1 {
   background: url(../img/portfolio-7-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic2 {
+.banner .bannerContainer #pic2 {
   background: url(../img/portfolio-4-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic3 {
+.banner .bannerContainer #pic3 {
   background: url(../img/portfolio-5-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic4 {
+.banner .bannerContainer #pic4 {
   background: url(../img/portfolio-9-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic5 {
+.banner .bannerContainer #pic5 {
   background: url(../img/portfolio-3-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic6 {
+.banner .bannerContainer #pic6 {
   background: url(../img/portfolio-8-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic7 {
+.banner .bannerContainer #pic7 {
   background: url(../img/portfolio-2-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic8 {
+.banner .bannerContainer #pic8 {
   background: url(../img/portfolio-6-sm.jpg);
   background-size: cover;
   background-position: center;
 }
-.banner .bannerContainer .pic9 {
+.banner .bannerContainer #pic9 {
   background: url(../img/portfolio-12-sm.jpg);
   background-size: cover;
   background-position: center;
